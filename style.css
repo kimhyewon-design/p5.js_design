@@ -107,8 +107,8 @@ header p {
     position: absolute;
     top: 0;
     left: 0;
-    width: 230%;  /* 원본 프로젝트 기준 폭 */
-    height: 230%; /* 원본 프로젝트 기준 높이 */
+    width: 173%;  /* 원본 프로젝트 기준 폭 */
+    height: 173%; /* 원본 프로젝트 기준 높이 */
     border: none;
     transform-origin: top left;
     transform: scale(0.7); 
