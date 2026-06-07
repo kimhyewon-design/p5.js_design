@@ -107,11 +107,11 @@ header p {
     position: absolute;
     top: 0;
     left: 0;
-    width: 800px;  /* 원본 프로젝트 기준 폭 */
-    height: 450px; /* 원본 프로젝트 기준 높이 */
+    width: 960px;  /* 원본 프로젝트 기준 폭 */
+    height: 540px; /* 원본 프로젝트 기준 높이 */
     border: none;
     transform-origin: top left;
-    transform: scale(0.65); 
+    transform: scale(0.5); 
 }
 
 @media (max-width: 400px) {
