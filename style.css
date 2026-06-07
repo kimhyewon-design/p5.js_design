@@ -1,0 +1,65 @@
+/* 기본 스타일 초기화 및 정렬 */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa;
+    text-align: center;
+    padding: 40px 20px;
+    margin: 0;
+}
+
+h1 {
+    color: #333;
+    margin-bottom: 10px;
+}
+
+p {
+    color: #666;
+    margin-bottom: 40px;
+}
+
+/* 2열(2x2) 격자 레이아웃 핵심 설정 */
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* 가로로 동일한 크기 2열 배치 */
+    gap: 30px; /* 이미지 사이의 간격 */
+    max-width: 900px; /* 전체 최대 너비 제한 */
+    margin: 0 auto; /* 화면 중앙 정렬 */
+}
+
+/* 개별 프로젝트 아이템 스타일 */
+.grid-item {
+    background-color: #ffffff;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* 마우스를 올렸을 때 살짝 떠오르는 효과 (선택) */
+.grid-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+}
+
+/* 이미지 스타일 정의 */
+.grid-item img {
+    width: 100%;
+    height: 250px; /* 이미지 높이를 통일 (필요에 따라 조절) */
+    object-fit: cover; /* 이미지가 찌그러지지 않도록 꽉 채움 */
+    display: block;
+}
+
+/* 하이퍼링크 스타일 제거 */
+.grid-item a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* 이미지 아래 제목 스타일 */
+.project-title {
+    padding: 15px;
+    font-weight: bold;
+    font-size: 1.1rem;
+    background-color: #fff;
+    color: #222;
+}
