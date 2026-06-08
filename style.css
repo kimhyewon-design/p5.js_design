@@ -96,7 +96,7 @@ header p {
 /* iframe 뷰포트 영역 */
 #projects .cell {
     width: 100%;
-    aspect-ratio: 16 / 10;
+    aspect-ratio: 16 / 9;
     position: relative;
     background: #fff;
     overflow: hidden;
